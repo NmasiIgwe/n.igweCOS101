@@ -1,15 +1,20 @@
-// a rust program that tells howfast a car is travelling 
+//program to show how fast a car moves
+
+use std::io;
 
 fn main() {
-    let d1 = 80.0 ;
-    let d2 = 120.0 ;
-    println!("Distance1 = {} \nDistance2 = {}",d1,d2 );
+       let mut distance = String::new();
+       let mut  time = String::new();
 
-    let t1 = 2.0 ;
-    let t2 = 4.0 ;
-    println!("Time1 = {} \nTime2 = {}",t1,t2);
+       println!("Enter distance in miles: ");
+       io::stdin().read_line(&mut distance).expect("Not a valid string");
+       let distance:f64 = distance.trim().parse().expect("Not a valid number");
 
-    let s1 = d1/t1;
-    let s2 = d2/t2;
-    println!("Speed1 = {} \nSpeed2 = {}",s1,s2 );
+       println!("Enter time in hours");
+       io::stdin().read_line(&mut time).expect("Not a valid string");
+       let time:f64 = time.trim().parse().expect("Not a valid number");
+
+       let speed:f64 = (distance*1.60934)/time; 
+       
+       println!("Speed of a car = {}km/h.",speed );
 }
