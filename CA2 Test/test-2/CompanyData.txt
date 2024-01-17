@@ -1,0 +1,8 @@
+Cadbury Nigeria Plc,            15000000,   5500000,   1965 
+Champion Breweries Plc,         25000000,   8000000,   1974  
+Dangote  Sugar Refinery Plc,    18000000,   1000000,   1970 
+Flour Mills Nigeria Plc,        32000000,   4000000,   1960 
+Nestle Nigeria Plc,             8000000,    1500000,   1961 
+Unilever Nigeria Plc,           37000000,   11000000,  1923
+Honeywell Nigeria Plc,          34000000,   9000000,   1906 
+Nigerian Breweries Plc,         30000000,   12000000,  1946 
